@@ -1,0 +1,168 @@
+﻿	html {
+		text-align: center;
+	}
+	
+	.logo {
+		height:30px;
+	}
+		/* Homepage CSS rules */
+	
+	#homepage {
+		background: url(/images/backgrounds/homepage.jpg);
+		background-size : cover;
+	}
+	
+	#homepage fieldset {						/* positioning of the two bottom buttons div (Return Car and Register) */
+		position:fixed;
+		bottom:5%;
+		width:92%;
+	}
+	
+	#home p {
+		margin-top:45px;
+	}
+	
+	#home h5, #home h4:nth-of-type(2)  {		/* hide desktop paragraph */
+		display: none;
+	}
+	
+	#home h3, #home h4 {
+		margin:0;
+		color: white;
+		text-align:left;
+	}
+	
+	#home h4 {
+		text-shadow:none;
+	}
+	
+	#welcomeMsg {
+		display: none;
+		color: blue;
+		text-align: left;
+	}
+		
+		/* End of homepage CSS rules */
+		
+		/* registration page CSS rules */
+		
+	#registration {
+		background: url(/images/backgrounds/registrationBG.jpg);
+		background-size : cover;
+		color:white;
+		text-shadow:none;
+	}
+	
+	#registration .ui-input-text, #registration .ui-input-search {		/* color and opacity of input field background + text color */
+		background-color: rgba(38, 38, 38, 0);
+		color: white;
+	}
+	
+	#registration input::-webkit-input-placeholder {		/* placeholder opacity */
+		color: rgba(128, 128,128, .75);
+		text-shadow:none;
+	}
+	
+	#registration input::-moz-placeholder {					
+		color: rgba(128, 128,128, .75);
+		text-shadow:none;
+	}
+	
+	#registration input:-moz-placeholder {					/* older Mozilla version support */
+		color: rgba(128, 128,128, .75);
+		text-shadow:none;
+	}
+	
+	#registration input:-ms-input-placeholder {
+		color: rgba(128, 128,128, .75);
+		text-shadow:none;
+	}
+	
+	#notRegistered {
+		color: red;
+	}
+	
+	#form > div {
+		text-align: left;
+	}
+	
+	/* End of registration page CSS rules */
+	
+	/* catalogue page CSS rules */
+	
+	#catalogue {
+		background: url(/images/backgrounds/catalogueBG.jpg);
+		background-size : cover;
+		color:white;
+		text-shadow:none;
+	}
+	
+	#catalogue li {
+		border-radius: 15%;
+		margin-bottom:2px;
+		background-color: rgba(38, 38, 38, 0.5);
+	}
+	
+	.ui-btn-inner{			/* deletes inner button border for not available vehicle button */
+		border:none;
+	}
+	
+	#selectCarMsg {
+		margin: 5px;
+	}  
+	
+	#myCanvas {
+		border: 2px solid silver;
+		margin-left: -8px;
+		margin-right: 3px;
+		margin-top: 16px;
+	}
+	
+	/* End of catalogue page CSS rules */
+	
+	/* calc page CSS rules */
+	
+	#calc {
+		background: url(/images/backgrounds/calcBG.jpg);
+		background-size : cover;
+		color:white;
+		text-shadow:none;
+	}
+	
+	#calc .ui-input-text, #registration .ui-input-search {		/* color and opacity of input field background + text color */
+		background-color: rgba(38, 38, 38, 0);
+		color: white;
+		text-shadow: none;
+	}
+	
+	#results {
+		margin-bottom: 0px;
+	}
+
+	/* End of calc page CSS rules */
+	
+	/* carReturn page CSS rules */
+	
+	#carReturn {
+		background: url(/images/backgrounds/carReturnBG.jpg);
+		background-size : cover;
+		color:white;
+		text-shadow:none;
+	}
+	
+	#carReturn .ui-input-text, #carReturn .ui-input-search {		/* color and opacity of input field background + text color */
+		background-color: rgba(38, 38, 38, 0);
+		color:white;
+		text-shadow:none;
+	}
+	
+	#carReturn header {
+		padding:10px;
+	}
+	
+	/* End of carReturn page CSS rules */
+	
+	.popupPos { 									/* pop ups positioning */
+		margin-left: -35px;
+		margin-right: 60px;
+	}

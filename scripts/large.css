@@ -1,0 +1,316 @@
+﻿	
+		/* Global CSS rules */
+	
+	.logo {
+		height: 30px;
+		margin-left: 15% !important;
+	}
+	
+	header div {				/* header text positioning */
+		width: 111px;
+		margin-left:45% !important;
+		margin-top:5px;
+	}
+	
+	footer span {				/* footer text positioning */
+		margin-left: 37%;
+	}
+	
+	#catalogue footer span, #calc footer span, #carReturn footer span{			/* positioning the text in the footer (for footers that are in a page with text-align:center) */
+		margin-left:inherit;
+	}
+		/* End of global CSS rules */
+		
+		/* Homepage CSS rules */
+	
+	#homepage {
+		background: url(/images/backgrounds/wallpaperBig.jpg);
+		background-size : cover;
+	}
+	
+	#welcomeMsg {
+		margin-left: 35.5%;
+		margin-top: 14%;
+		color:white;
+		text-shadow:none;
+	}
+	
+	#home article {
+		width:400px;
+		height: 200px;
+		margin-left: 35%;
+		margin-top: 1px;
+		background-color: ghostwhite;
+		border: 2px solid black;
+		padding:5px;
+	}
+	
+	#home h4:nth-of-type(1), #home h3 {		/* hide mobile paragraph */
+		display:none;
+	}
+	
+	#home article h4 {
+		margin-top:-20px;
+	}
+	
+	#homepage fieldset {						/* positioning of the two bottom buttons div (Return Car and Register) */
+		width:350px;
+		margin-left: 37%;
+		margin-top: -70px;
+	}
+	
+		/* End of homepage CSS rules */
+		
+		/* registration page CSS rules */
+	
+	#registration {
+		background: url(/images/backgrounds/wallpaperBig.jpg);
+		background-size : cover;
+	}
+	
+	#registration section {
+		width:500px;
+		margin-left:33%;
+		margin-top:5%;
+		background-color: rgba(255,255,255,0.7);
+		border: 2px solid black;
+		padding:15px;
+	}
+	
+	#registration section header {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	
+	#registration form label {
+		margin-right: 5px;
+		width:150px;
+		margin-top: 9px;
+	}
+	
+	#registration form div label + * {
+		width:340px;
+		margin:2px;
+	}
+	
+		/* End of registration page CSS rules */
+	
+		/* catalogue page CSS rules */
+	
+	#catalogue {
+		background: url(/images/backgrounds/wallpaperBig.jpg);
+		background-size: cover;
+		text-align: center;
+		text-shadow:none;
+	}
+	
+	#selectCarMsg {
+		margin-top:50px;
+		color: white;
+	}
+	
+	#catalogue section {
+		width: 80%;
+		margin: 0 auto;
+		padding:0px;
+	}
+	
+	#myCanvas {
+		width:40%;
+		margin:17px;
+		margin-left: 7%;
+		border: 2px solid white;
+	}
+	
+	#carlist  {
+		width: 25%;
+		margin-left: 70px;
+	}
+	
+	#carlist li {
+		margin-bottom:2px;
+		background-color: rgba(38, 38, 38, 0.7);
+		border-radius: inherit;
+	}
+	
+	.ui-btn-inner{
+		border:none;
+	}
+	
+		/* End of catalogue page CSS rules */
+	
+		/* calc page CSS rules */
+	
+	#calc {
+		background: url(/images/backgrounds/wallpaperBig.jpg);
+		background-size: cover;
+		text-align:center;
+		color:white;
+		text-shadow:none;
+	}
+	
+	#calc section {
+		width: 60%;
+		margin: 0 auto;
+	}
+	
+	#map_canvas {
+		height: 450px !important;
+	}
+	
+													/*  Confirm button theme overrides (from theme a to b)  */
+	
+	#calc #results + div {
+		border: 1px solid 		#222 /*{a-bup-border}*/;
+		background: 			#333333 /*{a-bup-background-color}*/;
+		font-weight: bold;
+		color: 					#fff /*{a-bup-color}*/;
+		text-shadow: 0 /*{a-bup-shadow-x}*/ -1px /*{a-bup-shadow-y}*/ 1px /*{a-bup-shadow-radius}*/ #000 /*{a-bup-shadow-color}*/;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #555 /*{a-bup-background-start}*/), to( #333 /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
+		background-image: -webkit-linear-gradient(#555 /*{a-bup-background-start}*/, #333 /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+		background-image:    -moz-linear-gradient(#555 /*{a-bup-background-start}*/, #333 /*{a-bup-background-end}*/); /* FF3.6 */
+		background-image:     -ms-linear-gradient(#555 /*{a-bup-background-start}*/, #333 /*{a-bup-background-end}*/); /* IE10 */
+		background-image:      -o-linear-gradient(#555 /*{a-bup-background-start}*/, #333 /*{a-bup-background-end}*/); /* Opera 11.10+ */
+		background-image:         linear-gradient(#555 /*{a-bup-background-start}*/, #333 /*{a-bup-background-end}*/);
+	}
+	
+	#calc #results + div:hover {
+		border: 1px solid 		#000 /*{a-bhover-border}*/;
+		background: 			#444444 /*{a-bhover-background-color}*/;
+		font-weight: bold;
+		color: 					#fff /*{a-bhover-color}*/;
+		text-shadow: 0 /*{a-bhover-shadow-x}*/ -1px /*{a-bhover-shadow-y}*/ 1px /*{a-bhover-shadow-radius}*/ #000 /*{a-bhover-shadow-color}*/;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #666 /*{a-bhover-background-start}*/), to( #444 /*{a-bhover-background-end}*/)); /* Saf4+, Chrome */
+		background-image: -webkit-linear-gradient(#666 /*{a-bhover-background-start}*/, #444 /*{a-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+		background-image:    -moz-linear-gradient(#666 /*{a-bhover-background-start}*/, #444 /*{a-bhover-background-end}*/); /* FF3.6 */
+		background-image:     -ms-linear-gradient(#666 /*{a-bhover-background-start}*/, #444 /*{a-bhover-background-end}*/); /* IE10 */
+		background-image:      -o-linear-gradient(#666 /*{a-bhover-background-start}*/, #444 /*{a-bhover-background-end}*/); /* Opera 11.10+ */
+		background-image:         linear-gradient(#666 /*{a-bhover-background-start}*/, #444 /*{a-bhover-background-end}*/);
+	}
+	
+	#calc #results + div:active {
+		border: 1px solid 		#000 /*{a-bdown-border}*/;
+		background: 			#3d3d3d /*{a-bdown-background-color}*/;
+		font-weight: bold;
+		color: 					#fff /*{a-bdown-color}*/;
+		text-shadow: 0 /*{a-bdown-shadow-x}*/ -1px /*{a-bdown-shadow-y}*/ 1px /*{a-bdown-shadow-radius}*/ #000 /*{a-bdown-shadow-color}*/;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #333 /*{a-bdown-background-start}*/), to( #5a5a5a /*{a-bdown-background-end}*/)); /* Saf4+, Chrome */
+		background-image: -webkit-linear-gradient(#333 /*{a-bdown-background-start}*/, #5a5a5a /*{a-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
+		background-image:    -moz-linear-gradient(#333 /*{a-bdown-background-start}*/, #5a5a5a /*{a-bdown-background-end}*/); /* FF3.6 */
+		background-image:     -ms-linear-gradient(#333 /*{a-bdown-background-start}*/, #5a5a5a /*{a-bdown-background-end}*/); /* IE10 */
+		background-image:      -o-linear-gradient(#333 /*{a-bdown-background-start}*/, #5a5a5a /*{a-bdown-background-end}*/); /* Opera 11.10+ */
+		background-image:         linear-gradient(#333 /*{a-bdown-background-start}*/, #5a5a5a /*{a-bdown-background-end}*/);
+	}
+	
+		/* End of calc page CSS rules */
+	
+		/* carReturn page CSS rules */
+	
+	#carReturn {
+		background: url(/images/backgrounds/wallpaperBig.jpg);
+		background-size: cover;
+		text-align: center;
+		color:white;
+		text-shadow:none;
+	}
+	
+	#carReturn .logo {
+		margin-right:82.5%;
+	}
+	
+												/*  Home button theme overrides (from theme a to b)  */
+	
+	#carReturn a {
+		border: 1px solid 		#145072 /*{b-bup-border}*/;
+		background: 			#2567ab /*{b-bup-background-color}*/;
+		font-weight: bold;
+		color: 					#fff /*{b-bup-color}*/;
+		text-shadow: 0 /*{b-bup-shadow-x}*/ -1px /*{b-bup-shadow-y}*/ 1px /*{b-bup-shadow-radius}*/ #145072 /*{b-bup-shadow-color}*/;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #5f9cc5 /*{b-bup-background-start}*/), to( #396b9e /*{b-bup-background-end}*/)); /* Saf4+, Chrome */
+		background-image: -webkit-linear-gradient(#5f9cc5 /*{b-bup-background-start}*/, #396b9e /*{b-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+		background-image:    -moz-linear-gradient(#5f9cc5 /*{b-bup-background-start}*/, #396b9e /*{b-bup-background-end}*/); /* FF3.6 */
+		background-image:     -ms-linear-gradient(#5f9cc5 /*{b-bup-background-start}*/, #396b9e /*{b-bup-background-end}*/); /* IE10 */
+		background-image:      -o-linear-gradient(#5f9cc5 /*{b-bup-background-start}*/, #396b9e /*{b-bup-background-end}*/); /* Opera 11.10+ */
+		background-image:         linear-gradient(#5f9cc5 /*{b-bup-background-start}*/, #396b9e /*{b-bup-background-end}*/);
+	}
+	
+	#carReturn a:hover {
+		border: 1px solid 		#00516e /*{b-bhover-border}*/;
+		background: 			#4b88b6 /*{b-bhover-background-color}*/;
+		font-weight: bold;
+		color: 					#fff /*{b-bhover-color}*/;
+		text-shadow: 0 /*{b-bhover-shadow-x}*/ -1px /*{b-bhover-shadow-y}*/ 1px /*{b-bhover-shadow-radius}*/ #014D68 /*{b-bhover-shadow-color}*/;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #72b0d4 /*{b-bhover-background-start}*/), to( #4b88b6 /*{b-bhover-background-end}*/)); /* Saf4+, Chrome */
+		background-image: -webkit-linear-gradient(#72b0d4 /*{b-bhover-background-start}*/, #4b88b6 /*{b-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+		background-image:    -moz-linear-gradient(#72b0d4 /*{b-bhover-background-start}*/, #4b88b6 /*{b-bhover-background-end}*/); /* FF3.6 */
+		background-image:     -ms-linear-gradient(#72b0d4 /*{b-bhover-background-start}*/, #4b88b6 /*{b-bhover-background-end}*/); /* IE10 */
+		background-image:      -o-linear-gradient(#72b0d4 /*{b-bhover-background-start}*/, #4b88b6 /*{b-bhover-background-end}*/); /* Opera 11.10+ */
+		background-image:         linear-gradient(#72b0d4 /*{b-bhover-background-start}*/, #4b88b6 /*{b-bhover-background-end}*/);
+	}
+	
+	#carReturn a:active {
+		border: 1px solid 		#225377 /*{b-bdown-border}*/;
+		background: 			#4e89c5 /*{b-bdown-background-color}*/;
+		font-weight: bold;
+		color: 					#fff /*{b-bdown-color}*/;
+		text-shadow: 0 /*{b-bdown-shadow-x}*/ -1px /*{b-bdown-shadow-y}*/ 1px /*{b-bdown-shadow-radius}*/ #225377 /*{b-bdown-shadow-color}*/;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #396b9e /*{b-bdown-background-start}*/), to( #4e89c5 /*{b-bdown-background-end}*/)); /* Saf4+, Chrome */
+		background-image: -webkit-linear-gradient(#396b9e /*{b-bdown-background-start}*/, #4e89c5 /*{b-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
+		background-image:    -moz-linear-gradient(#396b9e /*{b-bdown-background-start}*/, #4e89c5 /*{b-bdown-background-end}*/); /* FF3.6 */
+		background-image:     -ms-linear-gradient(#396b9e /*{b-bdown-background-start}*/, #4e89c5 /*{b-bdown-background-end}*/); /* IE10 */
+		background-image:      -o-linear-gradient(#396b9e /*{b-bdown-background-start}*/, #4e89c5 /*{b-bdown-background-end}*/); /* Opera 11.10+ */
+		background-image:         linear-gradient(#396b9e /*{b-bdown-background-start}*/, #4e89c5 /*{b-bdown-background-end}*/);
+	}
+	
+	#carReturn section {
+		width: 30%;
+		margin-left: 32.5%;
+		margin-top: 5%;
+	}
+	
+												/*  Submit button theme overrides (from theme b to a)  */
+	
+	#carReturn section div:nth-of-type(2) {
+		border: 1px solid 		#222 /*{a-bup-border}*/;
+		background: 			#333333 /*{a-bup-background-color}*/;
+		font-weight: bold;
+		color: 					#fff /*{a-bup-color}*/;
+		text-shadow: 0 /*{a-bup-shadow-x}*/ -1px /*{a-bup-shadow-y}*/ 1px /*{a-bup-shadow-radius}*/ #000 /*{a-bup-shadow-color}*/;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #555 /*{a-bup-background-start}*/), to( #333 /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
+		background-image: -webkit-linear-gradient(#555 /*{a-bup-background-start}*/, #333 /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+		background-image:    -moz-linear-gradient(#555 /*{a-bup-background-start}*/, #333 /*{a-bup-background-end}*/); /* FF3.6 */
+		background-image:     -ms-linear-gradient(#555 /*{a-bup-background-start}*/, #333 /*{a-bup-background-end}*/); /* IE10 */
+		background-image:      -o-linear-gradient(#555 /*{a-bup-background-start}*/, #333 /*{a-bup-background-end}*/); /* Opera 11.10+ */
+		background-image:         linear-gradient(#555 /*{a-bup-background-start}*/, #333 /*{a-bup-background-end}*/);
+	}
+	
+	#carReturn section div:nth-of-type(2):hover {
+		border: 1px solid 		#000 /*{a-bhover-border}*/;
+		background: 			#444444 /*{a-bhover-background-color}*/;
+		font-weight: bold;
+		color: 					#fff /*{a-bhover-color}*/;
+		text-shadow: 0 /*{a-bhover-shadow-x}*/ -1px /*{a-bhover-shadow-y}*/ 1px /*{a-bhover-shadow-radius}*/ #000 /*{a-bhover-shadow-color}*/;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #666 /*{a-bhover-background-start}*/), to( #444 /*{a-bhover-background-end}*/)); /* Saf4+, Chrome */
+		background-image: -webkit-linear-gradient(#666 /*{a-bhover-background-start}*/, #444 /*{a-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+		background-image:    -moz-linear-gradient(#666 /*{a-bhover-background-start}*/, #444 /*{a-bhover-background-end}*/); /* FF3.6 */
+		background-image:     -ms-linear-gradient(#666 /*{a-bhover-background-start}*/, #444 /*{a-bhover-background-end}*/); /* IE10 */
+		background-image:      -o-linear-gradient(#666 /*{a-bhover-background-start}*/, #444 /*{a-bhover-background-end}*/); /* Opera 11.10+ */
+		background-image:         linear-gradient(#666 /*{a-bhover-background-start}*/, #444 /*{a-bhover-background-end}*/);
+	}
+	
+	#carReturn section div:nth-of-type(2):active {
+		border: 1px solid 		#000 /*{a-bdown-border}*/;
+		background: 			#3d3d3d /*{a-bdown-background-color}*/;
+		font-weight: bold;
+		color: 					#fff /*{a-bdown-color}*/;
+		text-shadow: 0 /*{a-bdown-shadow-x}*/ -1px /*{a-bdown-shadow-y}*/ 1px /*{a-bdown-shadow-radius}*/ #000 /*{a-bdown-shadow-color}*/;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #333 /*{a-bdown-background-start}*/), to( #5a5a5a /*{a-bdown-background-end}*/)); /* Saf4+, Chrome */
+		background-image: -webkit-linear-gradient(#333 /*{a-bdown-background-start}*/, #5a5a5a /*{a-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
+		background-image:    -moz-linear-gradient(#333 /*{a-bdown-background-start}*/, #5a5a5a /*{a-bdown-background-end}*/); /* FF3.6 */
+		background-image:     -ms-linear-gradient(#333 /*{a-bdown-background-start}*/, #5a5a5a /*{a-bdown-background-end}*/); /* IE10 */
+		background-image:      -o-linear-gradient(#333 /*{a-bdown-background-start}*/, #5a5a5a /*{a-bdown-background-end}*/); /* Opera 11.10+ */
+		background-image:         linear-gradient(#333 /*{a-bdown-background-start}*/, #5a5a5a /*{a-bdown-background-end}*/);
+	}
+	
+		/* End of carReturn page CSS rules */
+
